@@ -1,7 +1,7 @@
 Summary:	Script that launches mozilla or firefox
 Name:		mozilla-launcher
 Version:	1.45
-Release:	0.1
+Release:	0.2
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://dev.gentoo.org/~agriffis/dist/%{name}-%{version}.bz2
@@ -12,6 +12,8 @@ Requires:	xtoolwait
 Requires:	XFree86
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_libdir %{_prefix}/lib
 
 %description
 Script that launches mozilla or firefox.
