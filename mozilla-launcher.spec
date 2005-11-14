@@ -1,4 +1,5 @@
-Summary:	Script that launches mozilla or firefox
+Summary:	Script that launches Mozilla or Firefox
+Summary(pl):	Skrypt uruchiamiaj±cy Mozillê lub Firefoksa
 Name:		mozilla-launcher
 Version:	1.45
 Release:	0.2
@@ -16,7 +17,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_libdir %{_prefix}/lib
 
 %description
-Script that launches mozilla or firefox.
+Script that launches Mozilla or Firefox.
+
+%description -l pl
+Skrypt uruchiamiaj±cy Mozillê lub Firefoksa.
 
 %prep
 %setup -qcT
