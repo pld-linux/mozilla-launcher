@@ -1,3 +1,5 @@
+# TODO
+# - pending bug https://bugs.gentoo.org/show_bug.cgi?id=112509
 Summary:	Script that launches Mozilla or Firefox
 Summary(pl):	Skrypt uruchiamiaj±cy Mozillê lub Firefoksa
 Name:		mozilla-launcher
