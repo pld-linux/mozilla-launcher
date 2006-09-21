@@ -1,0 +1,15 @@
+--- mozilla-launcher-1.51/mozilla-launcher~	2006-09-21 16:06:25.591207418 +0300
++++ mozilla-launcher-1.51/mozilla-launcher	2006-09-21 16:12:34.969489624 +0300
+@@ -136,6 +136,12 @@
+   # This case statement does the setup for source-based browsers and
+   # just drops through for binary-based browsers.
+   case $zero in
++    *swiftfox)
++      export MOZILLA_FIVE_HOME=${MOZILLA_LIBDIR:-"/usr/lib/swiftfox"}
++      remote=$MOZILLA_FIVE_HOME/swiftfox-xremote-client
++      mozbin=$MOZILLA_FIVE_HOME/swiftfox-bin
++      ;;
++
+     *fox)
+       export MOZILLA_FIVE_HOME=${MOZILLA_LIBDIR:-"/usr/lib/MozillaFirefox"}
+       remote=$MOZILLA_FIVE_HOME/mozilla-xremote-client
