@@ -4,7 +4,7 @@ Summary:	Script that launches Mozilla or Firefox
 Summary(pl):	Skrypt uruchiamiaj±cy Mozillê lub Firefoksa
 Name:		mozilla-launcher
 Version:	1.51
-Release:	0.2
+Release:	1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://dev.gentoo.org/~agriffis/dist/%{name}-%{version}.bz2
