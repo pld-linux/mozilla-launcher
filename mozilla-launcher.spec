@@ -1,7 +1,7 @@
 # TODO
 # - pending bug https://bugs.gentoo.org/show_bug.cgi?id=112509
 Summary:	Script that launches Mozilla or Firefox
-Summary(pl):	Skrypt uruchiamiaj±cy Mozillê lub Firefoksa
+Summary(pl.UTF-8):   Skrypt uruchiamiajÄ…cy MozillÄ™ lub Firefoksa
 Name:		mozilla-launcher
 Version:	1.51
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Script that launches Mozilla or Firefox.
 
-%description -l pl
-Skrypt uruchiamiaj±cy Mozillê lub Firefoksa.
+%description -l pl.UTF-8
+Skrypt uruchiamiajÄ…cy MozillÄ™ lub Firefoksa.
 
 %prep
 %setup -qcT
