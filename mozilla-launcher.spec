@@ -3,11 +3,11 @@
 Summary:	Script that launches Mozilla or Firefox
 Summary(pl.UTF-8):	Skrypt uruchiamiający Mozillę lub Firefoksa
 Name:		mozilla-launcher
-Version:	2.54
+Version:	1.54
 Release:	1
 License:	GPL v2
 Group:		Applications/WWW
-Source0:	http://dev.gentoo.org/~agriffis/dist/mozilla-launcher-1.54.bz2
+Source0:	http://dev.gentoo.org/~agriffis/dist/%{name}-%{version}.bz2
 # Source0-md5:	414ed649bae2fe97359b17031999e9ac
 Patch0:		%{name}-swiftfox.patch
 URL:		http://dev.gentoo.org/~agriffis/dist/
