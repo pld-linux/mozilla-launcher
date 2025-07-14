@@ -28,7 +28,7 @@ Skrypt uruchiamiający Mozillę lub Firefoksa.
 %prep
 %setup -qcT
 %{__bzip2} -dc %{SOURCE0} > %{name}
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
